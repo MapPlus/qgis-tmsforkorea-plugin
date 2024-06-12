@@ -55,33 +55,33 @@ class OlNaverMapsLayer(WebLayer3857):
 class OlNaverStreetLayer(OlNaverMapsLayer):
 
     def __init__(self):
-        tmsUrl = "https://map.pstatic.net/nrb/styles/basic/1651664082/{z}/{x}/{y}@2x.png?mt=bg.ol.ts.lko"
+        tmsUrl = "https://map.pstatic.net/nrb/styles/basic/1717723233/{z}/{x}/{y}@2x.png?mt=bg.ol.ts.lko"
         OlNaverMapsLayer.__init__(self, name="Naver Street", html="naver_street.html", xyzUrl=None)
 
 
 class OlNaverHybridLayer(OlNaverMapsLayer):
 
     def __init__(self):
-        tmsUrl = "https://map.pstatic.net/nrb/styles/satellite/1651664082/{z}/{x}/{y}@2x.png?mt=bg.ol.ts.lko"
+        tmsUrl = "https://map.pstatic.net/nrb/styles/satellite/1717723233/{z}/{x}/{y}@2x.png?mt=bg.ol.ts.lko"
         OlNaverMapsLayer.__init__(self, name="Naver Hybrid", html="naver_hybrid.html", xyzUrl=None)
 
 
 class OlNaverSatelliteLayer(OlNaverMapsLayer):
 
     def __init__(self):
-        tmsUrl = "https://map.pstatic.net/nrb/styles/satellite/1651664082/{z}/{x}/{y}@2x.png?mt=bg.ol.ts"
+        tmsUrl = "https://map.pstatic.net/nrb/styles/satellite/1717723233/{z}/{x}/{y}@2x.png?mt=bg.ol.ts"
         OlNaverMapsLayer.__init__(self, name="Naver Satellite", html="naver_satellite.html", xyzUrl=None)
 
 
 class OlNaverPhysicalLayer(OlNaverMapsLayer):
 
     def __init__(self):
-        tmsUrl = "https://map.pstatic.net/nrb/styles/terrain/1651664082/{z}/{x}/{y}@2x.png?mt=bg.ol.ts.lko"
+        tmsUrl = "https://map.pstatic.net/nrb/styles/terrain/1717723233/{z}/{x}/{y}@2x.png?mt=bg.ol.ts.lko"
         OlNaverMapsLayer.__init__(self, name="Naver Physical", html="naver_physical.html", xyzUrl=None)
 
 
 class OlNaverCadastralLayer(OlNaverMapsLayer):
 
     def __init__(self):
-        tmsUrl = "https://map.pstatic.net/nrb/styles/basic/1651664082/{z}/{x}/{y}@2x.png?mt=bg.ol.ts.lp"
+        tmsUrl = "https://map.pstatic.net/nrb/styles/basic/1717723233/{z}/{x}/{y}@2x.png?mt=bg.ol.ts.lp"
         OlNaverMapsLayer.__init__(self, name="Naver Cadastral", html="naver_cadastral.html", xyzUrl=None)
